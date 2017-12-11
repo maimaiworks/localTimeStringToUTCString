@@ -14,6 +14,7 @@
 		8D6C9E2E1FDE98A400424F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6C9E2C1FDE98A400424F93 /* LaunchScreen.storyboard */; };
 		8D6C9E311FDE98A400424F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C9E301FDE98A400424F93 /* main.m */; };
 		8D6C9E3B1FDE98A400424F93 /* localTimeStringToUTCStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C9E3A1FDE98A400424F93 /* localTimeStringToUTCStringTests.m */; };
+		8D6C9E471FDE992200424F93 /* timeFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C9E461FDE992200424F93 /* timeFormat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8D6C9E361FDE98A400424F93 /* localTimeStringToUTCStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localTimeStringToUTCStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6C9E3A1FDE98A400424F93 /* localTimeStringToUTCStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = localTimeStringToUTCStringTests.m; sourceTree = "<group>"; };
 		8D6C9E3C1FDE98A400424F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6C9E451FDE992200424F93 /* timeFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timeFormat.h; sourceTree = "<group>"; };
+		8D6C9E461FDE992200424F93 /* timeFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timeFormat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				8D6C9E221FDE98A400424F93 /* AppDelegate.m */,
 				8D6C9E241FDE98A400424F93 /* ViewController.h */,
 				8D6C9E251FDE98A400424F93 /* ViewController.m */,
+				8D6C9E451FDE992200424F93 /* timeFormat.h */,
+				8D6C9E461FDE992200424F93 /* timeFormat.m */,
 				8D6C9E271FDE98A400424F93 /* Main.storyboard */,
 				8D6C9E2A1FDE98A400424F93 /* Assets.xcassets */,
 				8D6C9E2C1FDE98A400424F93 /* LaunchScreen.storyboard */,
@@ -208,6 +213,7 @@
 				8D6C9E261FDE98A400424F93 /* ViewController.m in Sources */,
 				8D6C9E311FDE98A400424F93 /* main.m in Sources */,
 				8D6C9E231FDE98A400424F93 /* AppDelegate.m in Sources */,
+				8D6C9E471FDE992200424F93 /* timeFormat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

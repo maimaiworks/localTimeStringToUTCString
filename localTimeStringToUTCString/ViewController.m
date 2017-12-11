@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "timeFormat.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	
+	NSString* localTime = @"2017-12-12 12:34:56";
+	
+	NSString* UTCString = [timeFormat localTimeStringToUTCString:localTime];
+	NSLog(@"UTCString=%@",UTCString);
 }
 
 
